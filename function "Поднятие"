@@ -1,0 +1,6 @@
+function hoist() {
+    var message='Hoisting is all the rage!'
+    console.log(message);
+  }
+  
+  hoist();
