@@ -1,0 +1,19 @@
+'use strict'
+const inc = function(n) { return n + 1; }
+
+
+  const a = 2;
+  const b = inc(a);
+  console.log(b);
+
+  let person = { name: "Vitalii", lastName: "Petryk", age: 21 };
+
+  person.name;
+  person.lastName;
+  person.age;
+
+  function rename(person, newName) { person.name = newName; }
+
+  rename(person, "Nick");
+
+  console.log(person);
